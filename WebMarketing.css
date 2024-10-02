@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: #f8f9fa;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+  
+p {
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: medium;
+}
+
+
+
+
+
+/* Bagian CSS Banner */
+
+
+.Banner {
+    border-radius: 7px;
+    border: 1px solid ;
+    text-align: center;
+    background-color: #ffe8d6;
+}
+
+.chakra-petch-bold-italic {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 70px;
+    color: #cb997e;
+    
+  }
+  
+
+
+
+
+/* Bagian CSS -navigasi- */
+
+
+#navigasi {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    background-color:#ddbea9 ;
+}
+
+
+#navigasi a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 35px;
+}
+
+
+#navigasi a:hover {
+    background-color: #cb997e;
+    color: black;
+    font-weight: bold;
+}
+
+
+  
+
+
+/* Bagian -Main content- */
+
+main {
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+#kontenkiri {
+    line-height: 2rem;
+    width: 95%;
+}
+    
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+
+
+
+
+
+
+
+/* Bagian CSS Main 1 -Profil- */
+
+
+.Profil img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 10%;
+    border-radius: 10%;
+    
+}
+
+
+
+
+
+
+/* Bagian CSS Main 2 -Unggulan-  */
+
+#unggulan {
+   box-sizing: border-box;
+}
+
+
+.layoutproduk {
+    display: flex;
+    gap: 2rem;
+    flex: 1;
+}
+
+
+.galeri {
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.galeri img {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.deskripsi {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+/* Bagian CSS Main 3 -List&Pemesanan Produk- */
+
+
+
+
+
+
+
+
+
+
+/* Bagian CSS Main 4 -Tentang Kami-  */
+
+#TentangKami img {
+    margin-left: 20%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Bagian kotak dan tataletak */
+
+.Profil {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(166, 151, 151);
+}
+
+
+.cardproduk {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(166, 151, 151);
+}
+
+.listproduk {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(166, 151, 151);
+}
+
+.cardtentang {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(166, 151, 151);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+
+}
+
+
